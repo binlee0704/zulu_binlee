@@ -1,0 +1,21 @@
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 28px;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #272e35;
+}
+.button--outline {
+  border: 1px solid #a5b2c3;
+}
+.button--active {
+  color: #fff;
+  background: #579aff;
+  transition: color 0.2s ease-in-out;
+}
+.button--active:hover {
+  opacity: 0.9;
+}
